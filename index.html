@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<title>CHEAP STEAM</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="Images/fav.png">
+<link rel="icon" href="Images/fav.png">
+<style>
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("./Images/steam.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+a {
+    color: lightgray;
+    text-decoration: none;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">CHEAP STEAM</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">설명</a>
+      <a href="#pricing" class="w3-bar-item w3-button">가격</a>
+      <a href="#contact" class="w3-bar-item w3-button">문의</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">닫기 ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">설명</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">가격</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">문의</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo">최대 <font color=lightgray>70%</font><br>할인</span><br>
+    <span class="w3-large"><font color=lightgray>모든 스팀 게임을 부담없이 즐겨보세요.</font></span>
+    <p><a href="https://open.kakao.com/o/scQja5sd" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">카카오톡 오픈채팅 상담 →</a></p>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">CHEAP STEAM</h3>
+  <p class="w3-center w3-large">Cheap Steam을 이용해야 하는 이유</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">빠른 응답</p>
+      <p>모든 문의를 최대 24시간 이내에 응답합니다.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">친절한 서비스</p>
+      <p>모든 고객님들에게 친절하게 대해드립니다.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">저렴한 가격</p>
+      <p>최대 70% 할인된 가격으로 스팀 게임을 즐길 수 있습니다.</p>
+    </div>
+    <div class="w3-quarter">
+      <p class="w3-large">.</p>
+      <p>스팀 게임을 하고싶지만 비싼 가격때문에 구매하지 못하셨던분들을 위한 최고의 서비스!<br>스팀에 존재하는 거의 모든 게임을 <br><font color=blue>30% ~ 70%</font> 저렴한 가격으로 부담없이 즐길 수 있습니다.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>This is Legal.</h3>
+      <p>합법적으로 결제된 안전한 게임들입니다.<br>라이브러리 공유를 통해 본계정에서 즐길 수 있습니다.<br><font color=red size=1>※ 일부 게임은 불가능합니다.</font></p>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Pricing Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
+  <h3>가격</h3>
+  <p class="w3-large">원하는 플랜을 골라보세요.</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">일반</li>
+        <li class="w3-padding-16">원하는 스팀게임들을 마음껏 골라담으세요.<br>선택한 게임의 갯수와 가격에 따라 가격이 책정됩니다.</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">30 ~ 40% 할인</h2>
+          <span class="w3-opacity">추가비용 없음</span>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-red w3-xlarge w3-padding-32">프로</li>
+        <li class="w3-padding-16">원하는 스팀게임들을 마음껏 골라담으세요.<br>선택한 게임의 갯수와 가격에 따라 가격이 책정됩니다.<br>스팀 계정을 한국 계정으로 지급합니다.</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">40 ~ 60% 할인</h2>
+          <span class="w3-opacity">추가비용: ￦5,000</span>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">프리미엄</li>
+        <li class="w3-padding-16">원하는 스팀게임들을 마음껏 골라담으세요.<br>선택한 게임의 갯수와 가격에 따라 가격이 책정됩니다.<br>스팀 계정을 한국 계정으로 지급합니다.<br>할인중인 게임이라면 +2% 할인을 한 가격에서 추가 할인을 하고 가격을 책정합니다.</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">45 ~ 70% 할인</h2>
+          <span class="w3-opacity">추가비용: ￦10,000</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64" id="contact">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>맨 위로</a>
+  <div class="w3-section">
+    <i class="fa fa-comment w3-hover-opacity"></i> <a href="https://open.kakao.com/o/scQja5sd">https://open.kakao.com/o/scQja5sd</a>
+    <br>
+    <i class="fa fa-envelope w3-hover-opacity"></i> <a href="mailto:support@cheap-steam.shop">support@cheap-steam.shop</a>
+  </div>
+</footer>
+ 
+<script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
