@@ -38,9 +38,6 @@ a {
     text-decoration: none;
 }
 </style>
-<script>
-    location.href = "announcement";
-</script>
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -50,7 +47,6 @@ a {
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">설명</a>
-      <a href="#pricing" class="w3-bar-item w3-button">가격</a>
       <a href="#contact" class="w3-bar-item w3-button">문의</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
@@ -65,7 +61,6 @@ a {
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">닫기 ×</a>
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">설명</a>
-  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">가격</a>
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">문의</a>
 </nav>
 
@@ -74,7 +69,7 @@ a {
   <div class="w3-display-left w3-text-white" style="padding:48px">
     <span class="w3-jumbo"><font color=lightgray>최대 90%<br>할인</font></span><br>
     <span class="w3-large"><font color=lightgray>모든 스팀 게임을 부담없이 즐겨보세요.</font></span>
-    <p><a href="https://open.kakao.com/o/scQja5sd" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">카카오톡 오픈채팅 상담 →</a></p>
+    <p><a href="https://open.kakao.com/o/sqR0dmMd" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">카카오톡 오픈채팅 상담 →</a></p>
   </div>
 </header>
 
@@ -86,7 +81,7 @@ a {
     <div class="w3-quarter">
       <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
       <p class="w3-large">빠른 응답</p>
-      <p>모든 문의를 최대 24시간 이내에 응답합니다.</p>
+      <p>모든 문의에 빠르게 응답합니다.</p>
     </div>
     <div class="w3-quarter">
       <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
@@ -124,51 +119,11 @@ a {
   </div>
 </div>
 
-<!-- Pricing Section -->
-<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
-  <h3>가격</h3>
-  <p class="w3-large">원하는 플랜을 골라보세요.</p>
-  <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-third w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">일반</li>
-        <li class="w3-padding-16">원하는 스팀게임들을 마음껏 골라담으세요.<br>선택한 게임의 갯수와 가격에 따라 가격이 책정됩니다.<br>스팀 계정을 아르헨티나 계정으로 지급합니다.<br>&nbsp;</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">30 ~ 50% 할인</h2>
-          <span class="w3-opacity">추가비용 없음</span>
-        </li>
-      </ul>
-    </div>
-    <div class="w3-third w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-red w3-xlarge w3-padding-32">프로</li>
-        <li class="w3-padding-16">원하는 스팀게임들을 마음껏 골라담으세요.<br>선택한 게임의 갯수와 가격에 따라 가격이 책정됩니다.<br>스팀 계정을 한국 계정으로 지급합니다.<br>1,100원 이하의 게임을 보너스로 지급합니다.</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">40 ~ 70% 할인</h2>
-          <span class="w3-opacity">추가비용: ￦3,000</span>
-        </li>
-      </ul>
-    </div>
-    <div class="w3-third w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">프리미엄</li>
-        <li class="w3-padding-16">원하는 스팀게임들을 마음껏 골라담으세요.<br>선택한 게임의 갯수와 가격에 따라 가격이 책정됩니다.<br>스팀 계정을 한국 계정으로 지급합니다.<br>5,000원 이하의 게임을 보너스로 지급합니다.</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">50 ~ 90% 할인</h2>
-          <span class="w3-opacity">추가비용: ￦8,000</span>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
-
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64" id="contact">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>맨 위로</a>
   <div class="w3-section">
-    <i class="fa fa-comment w3-hover-opacity"></i> <a href="https://open.kakao.com/o/scQja5sd">https://open.kakao.com/o/scQja5sd</a>
-    <br>
-    <i class="fa fa-envelope w3-hover-opacity"></i> <a href="mailto:support@cheap-steam.shop">support@cheap-steam.shop</a>
+    <i class="fa fa-comment w3-hover-opacity"></i> <a href="https://open.kakao.com/o/sqR0dmMd">https://open.kakao.com/o/sqR0dmMd</a>
   </div>
 </footer>
  
